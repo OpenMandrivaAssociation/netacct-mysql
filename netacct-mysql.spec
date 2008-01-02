@@ -15,6 +15,7 @@ BuildRequires:	libpcap-devel >= 0.7
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
 BuildRequires:	chrpath
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Traffic Accounting Daemon with mysql support Network traffic
