@@ -1,7 +1,7 @@
 Summary:	Network traffic accounting daemon
 Name:		netacct-mysql
 Version:	0.78
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Servers
 URL:		http://netacct-mysql.gabrovo.com/
@@ -15,7 +15,7 @@ BuildRequires:	libpcap-devel >= 0.7
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
 BuildRequires:	chrpath
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Traffic Accounting Daemon with mysql support Network traffic
