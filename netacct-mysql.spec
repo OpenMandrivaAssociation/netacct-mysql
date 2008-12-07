@@ -10,7 +10,7 @@ Patch0:		%{name}-initscript.patch
 Patch1:		netacct-mysql-lib64_shared.diff
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	libpcap-devel >= 0.7
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
