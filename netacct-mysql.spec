@@ -1,7 +1,7 @@
 Summary:	Network traffic accounting daemon
 Name:		netacct-mysql
 Version:	0.78
-Release:	%mkrel 12
+Release:	%mkrel 13
 License:	GPL
 Group:		System/Servers
 URL:		http://netacct-mysql.gabrovo.com/
@@ -12,7 +12,7 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	mysql-devel
 BuildRequires:	libpcap-devel >= 0.7
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	autoconf2.5
 BuildRequires:	chrpath
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -30,7 +30,7 @@ statistics, peering/international traffic accounting.
 
 %build
 rm -f configure
-libtoolize --copy --force; aclocal-1.7; automake-1.7 --add-missing --copy; autoconf --force
+libtoolize --copy --force; aclocal; automake --add-missing --copy; autoconf --force
 
 export LIBS="$LIBS -L%{_libdir} -lmysqlclient"
 
