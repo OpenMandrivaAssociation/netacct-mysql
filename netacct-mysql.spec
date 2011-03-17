@@ -1,7 +1,7 @@
 Summary:	Network traffic accounting daemon
 Name:		netacct-mysql
 Version:	0.78
-Release:	%mkrel 13
+Release:	%mkrel 14
 License:	GPL
 Group:		System/Servers
 URL:		http://netacct-mysql.gabrovo.com/
