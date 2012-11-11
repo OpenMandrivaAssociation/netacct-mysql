@@ -1,0 +1,11 @@
+--- contrib/nacctd.redhat	2002-09-28 12:25:17.000000000 -0400
++++ contrib/nacctd.redhat.oden	2002-09-29 05:39:44.000000000 -0400
+@@ -18,7 +18,7 @@
+ 
+ INITLOG_ARGS=""
+ 
+-nacctd=/usr/local/sbin/nacctd
++nacctd=/usr/sbin/nacctd
+ OPTIONS=""
+ RETVAL=0
+ 

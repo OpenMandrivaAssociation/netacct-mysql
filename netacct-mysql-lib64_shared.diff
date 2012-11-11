@@ -1,0 +1,13 @@
+--- configure.in	2005-02-21 11:56:04.000000000 +0100
++++ configure.in.oden	2007-02-03 15:34:13.000000000 +0100
+@@ -159,8 +159,8 @@
+     fi
+   else
+ 
+-    for i in mysql lib lib/mysql; do
+-      str="$MYSQL_DIR/$i/libmysqlclient.a"
++    for i in mysql lib lib/mysql lib64 lib64/mysql; do
++      str="$MYSQL_DIR/$i/libmysqlclient.so"
+       for j in `echo $str`; do
+         if test -r $j; then
+           MYSQL_LIB_DIR="$MYSQL_DIR/$i"
