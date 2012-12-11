@@ -73,3 +73,80 @@ chrpath -d %{buildroot}%{_sbindir}/nacctd
 %{_sbindir}/nacctd
 
 
+
+
+%changelog
+* Thu Mar 17 2011 Oden Eriksson <oeriksson@mandriva.com> 0.78-14mdv2011.0
++ Revision: 645849
+- relink against libmysqlclient.so.18
+
+* Mon Jan 03 2011 Oden Eriksson <oeriksson@mandriva.com> 0.78-13mdv2011.0
++ Revision: 627811
+- don't force the usage of automake1.7
+
+* Sat Jan 01 2011 Oden Eriksson <oeriksson@mandriva.com> 0.78-12mdv2011.0
++ Revision: 627267
+- rebuilt against mysql-5.5.8 libs, again
+
+* Thu Dec 30 2010 Oden Eriksson <oeriksson@mandriva.com> 0.78-11mdv2011.0
++ Revision: 626548
+- rebuilt against mysql-5.5.8 libs
+
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0.78-9mdv2011.0
++ Revision: 613012
+- the mass rebuild of 2010.1 packages
+
+* Thu Feb 18 2010 Oden Eriksson <oeriksson@mandriva.com> 0.78-8mdv2010.1
++ Revision: 507494
+- rebuild
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.78-7mdv2010.0
++ Revision: 440247
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - use lowercase mysql-devel
+
+* Sat Dec 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.78-6mdv2009.1
++ Revision: 311312
+- rebuilt against mysql-5.1.30 libs
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 0.78-5mdv2009.1
++ Revision: 298318
+- rebuilt against libpcap-1.0.0
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.78-4mdv2009.0
++ Revision: 253752
+- rebuild
+
+* Thu Jan 03 2008 Olivier Blin <oblin@mandriva.com> 0.78-2mdv2008.1
++ Revision: 140994
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Feb 03 2007 Oden Eriksson <oeriksson@mandriva.com> 0.78-2mdv2007.0
++ Revision: 116082
+- bump release
+- added P1 (lib64 and shared fixes)
+- Import netacct-mysql
+
+* Thu Jan 12 2006 Oden Eriksson <oeriksson@mandriva.com> 0.78-1mdk
+- 0.78
+
+* Sun Oct 30 2005 Oden Eriksson <oeriksson@mandriva.com> 0.76-4mdk
+- rebuilt against MySQL-5.0.15
+
+* Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 0.76-3mdk
+- rebuilt against new libpcap-0.9.1 (aka. a "play safe" rebuild)
+
+* Tue Jan 25 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.76-2mdk
+- rebuilt against MySQL-4.1.x system libs
+
+* Mon May 17 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.76-1mdk
+- 0.76
+- new url, fix deps, use macros
+- drop P1, it's included
+
