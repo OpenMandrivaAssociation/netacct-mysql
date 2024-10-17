@@ -4,7 +4,7 @@ Version:	0.78
 Release:	15
 License:	GPL
 Group:		System/Servers
-URL:		http://netacct-mysql.gabrovo.com/
+URL:		https://netacct-mysql.gabrovo.com/
 Source0:	http://netacct-mysql.gabrovo.com/download/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-initscript.patch
 Patch1:		netacct-mysql-lib64_shared.diff
